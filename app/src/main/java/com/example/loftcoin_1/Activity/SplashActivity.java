@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.PersistableBundle;
 import android.preference.PreferenceManager;
 
 import androidx.annotation.Nullable;
@@ -18,9 +17,9 @@ public class SplashActivity extends AppCompatActivity {
 
     private SharedPreferences prefs;
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+@Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         if (prefs.getBoolean(WelcomeActivity.KEY_SHOW_WELCOME, true)) {

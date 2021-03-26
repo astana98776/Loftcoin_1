@@ -8,9 +8,9 @@ import androidx.navigation.ui.NavigationUI;
 
 
 import android.os.Bundle;
-
-import com.example.loftcoin_1.databinding.ActivityMainBinding;
 import com.example.loftcoin_1.R;
+import com.example.loftcoin_1.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -25,6 +25,4 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.toolbar, navController, new AppBarConfiguration
                 .Builder(binding.bottomNav.getMenu())
                 .build());
-
-    }
-}
+    }}
