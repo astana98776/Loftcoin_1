@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/artboard_2"
-        android:contentDescription="@string/"
+        android:contentDescription="@string/app_name"
         app:layout_constraintStart_toEndOf="@+id/v_guideline"
         app:layout_constraintTop_toTopOf="@+id/h_guideline" />
 
