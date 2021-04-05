@@ -1,14 +1,12 @@
 package com.example.loftcoin_1.Activity;
-import android.content.Intent;
+
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.preference.PreferenceManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.PagerSnapHelper;
-import androidx.recyclerview.widget.RecyclerView;
+
 import androidx.recyclerview.widget.SnapHelper;
+
 import com.example.loftcoin_1.databinding.ActivityWelcomeBinding;
 
 public class WelcomeActivity extends AppCompatActivity {
